@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>CSS3</title>
+	<link rel="stylesheet" href="css/css3.css">
+</head>
+<body>
+	<div> 
+		<h1>border的 用法</h1>
+		<!-- 圆 -->
+		<div class="border-100 border">
+			<div class="a"></div>
+		</div>
+		<!-- 半圆 -->
+		<div class="border-50 border">
+			<div class="b"></div>
+		</div>
+		<!-- 椭圆 -->
+		<div class="border-50 border">
+			<div class="c"></div>
+		</div>
+		<!-- 半个椭圆 -->
+		<div class="border-50 border">
+			<div class="d"></div>
+		</div>
+		<!-- border-radius -->
+		<div class="border-100 border">
+			<div class="m"></div>
+		</div>
+		<!-- border-radius -->
+		<div class="border-100 border">
+			<div class="n"></div>
+		</div>
+		<!-- border-radius -->
+		<div class="border-100 border">
+			<div class="o"></div>
+		</div>
+
+		<!-- 放大镜 -->
+		<div class="border-100 border">
+			<div class="e"></div>
+		</div>
+		<!-- 悬浮提示 -->
+		<div class="border-50 border">
+			<div data-title="hello, world" class="f">请hover</div>
+		</div>
+		<!-- box-sizing属性就是用来重定义这个计算方式的，它有三个取值，分别是：content-box（默认）、border-box、padding-box -->
+		<div class="border-100 border">
+			<div class="g"></div>
+			<div class="h"></div>
+		</div>
+		<!-- 背景色渐变 linear-gradient -->
+		<div class="border-50 border">
+			<div class="i"></div>
+		</div>
+		<div class="border-50 border">
+			<div class="j"></div>
+		</div>
+		<div class="border-50 border">
+			<div class="k"></div>
+		</div>
+		<!-- box-shadow -->
+		<div class="border-100 border">
+			<div class="l"></div>
+		</div>
+	</div>
+	<div class="css3">
+		<h1>动画</h1>
+		<!-- 简单的演示 -->
+		<div class="c1 css"></div>
+		<!-- transition -->
+		<!-- transition: property duration timing-function delay; -->
+		<div class="c2 css"></div>
+
+		<!-- animation -->
+		<!-- animation: name duration timing-function delay iteration-count direction; -->
+		<!-- 加入 infinite  动画无限次播放 -->	
+		<div class="c3 css"></div>
+		<!-- animation-direction 规定是否应该轮流反向播放动画。-->	
+		<!-- animation-iteration-count 规定动画应该播放的次数。-->	
+		<div class="c4 css"></div>
+	</div>
+	<div class="css3">
+		<h1>animation 的各种动画</h1>
+		<div class="fade">
+			<h2>淡入淡出</h2>
+			<!-- 淡入 -->
+			<div class="a-fadein animation">淡入</div>
+			<!-- 淡入-从上 -->
+			<div class="a-fadeinT animation">淡入-从上</div>
+			<!-- 淡入-从右 -->	
+			<div class="a-fadeinR animation">淡入-从右</div>
+			<!-- 淡入-从下 -->
+			<div class="a-fadeinB animation">淡入-从下</div>
+			<!-- 淡入-从左 -->
+			<div class="a-fadeinL animation">淡入-从左</div>
+			<!-- 淡出 -->	
+			<div class="a-fadeout animation">淡出</div>
+			<!-- 淡出-向上 -->
+			<div class="a-fadeoutT animation">淡出-向上</div>
+			<!-- 淡出-向右 -->	
+			<div class="a-fadeoutR animation">淡出-向右</div>
+			<!-- 淡出-向下 -->
+			<div class="a-fadeoutB animation">淡出-向下</div>
+			<!-- 淡出-向左 -->
+			<div class="a-fadeoutL animation">淡出-向左</div>
+		</div>
+		<div class="fade">
+			<h2>弹跳</h2>
+			<!-- 弹跳 -->
+			<div class="a-bounce animation">弹跳</div>
+			<h4></h4>
+			<!-- 弹入 -->
+			<div class="a-bouncein animation">弹入</div>
+			<!-- 弹入-从上 -->
+			<div class="a-bounceinT animation">弹入-从上</div>
+			<!-- 弹入-从右 -->	
+			<div class="a-bounceinR animation">弹入-从右</div>
+			<!-- 弹入-从下 -->
+			<div class="a-bounceinB animation">弹入-从下</div>
+			<!-- 弹入-从左 -->
+			<div class="a-bounceinL animation">弹入-从左</div>
+			<!-- 弹出 -->	
+			<div class="a-bounceout animation">弹出</div>
+			<!-- 弹出-向上 -->
+			<div class="a-bounceoutT animation">弹出-向上</div>
+			<!-- 弹出-向右 -->	
+			<div class="a-bounceoutR animation">弹出-向右</div>
+			<!-- 弹出-向下 -->
+			<div class="a-bounceoutB animation">弹出-向下</div>
+			<!-- 弹出-向左 -->
+			<div class="a-bounceoutL animation">弹出-向左</div>
+		</div>
+		<div class="fade">
+			<h2>转入转出</h2>
+			<!-- 转入 -->
+			<div class="a-rotatein animation">转入</div>
+			<!-- 转入-从左上 -->
+			<div class="a-rotateinLT animation">转入-从左上</div>
+			<!-- 转入-从左下 -->	
+			<div class="a-rotateinLB animation">转入-从左下</div>
+			<!-- 转入-从右上 -->
+			<div class="a-rotateinRT animation">转入-从右上</div>
+			<!-- 转入-从右下 -->
+			<div class="a-rotateinRB animation">转入-从右下</div>
+			<!-- 转出 -->	
+			<div class="a-rotateout animation">转出</div>
+			<!-- 转出-向左上 -->
+			<div class="a-rotateoutLT animation">转出-向左上</div>
+			<!-- 转出-向左下 -->	
+			<div class="a-rotateoutLB animation">转出-向左下</div>
+			<!-- 转出-向右上 -->
+			<div class="a-rotateoutRT animation">转出-向右上</div>
+			<!-- 转出-向右下 -->
+			<div class="a-rotateoutRB animation">转出-向右下</div>
+		</div>
+		<div class="fade">
+			<h2>翻转</h2>
+			<!-- 翻转 -->
+			<div class="a-flip animation">翻转</div>
+			<h4></h4>
+			<!-- 翻入-X轴 -->
+			<div class="a-flipinX animation">翻入-X轴</div>
+			<!-- 翻入-Y轴 -->	
+			<div class="a-flipinY animation">翻入-Y轴</div>
+			<!-- 翻出-X轴 -->
+			<div class="a-flipoutX animation">翻出-X轴</div>
+			<!-- 翻出-Y轴 -->
+			<div class="a-flipoutY animation">翻出-Y轴</div>
+			<h2></h2>
+			<!-- 闪烁 -->	
+			<div class="a-flash animation">闪烁</div>
+			<!-- 震颤 -->
+			<div class="a-shake animation">震颤</div>
+			<!-- 摇摆 -->	
+			<div class="a-swing animation">摇摆</div>
+			<!-- 摇晃 -->
+			<div class="a-wobble animation">摇晃</div>
+			<!-- 震铃 -->
+			<div class="a-ring animation">震铃</div>
+		</div>
+	</div>
+
+
+
+
+
+
+</body>
+</html>
